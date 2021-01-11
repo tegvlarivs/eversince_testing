@@ -29,7 +29,7 @@ body {
 }
 
 ul {
-    list-style: none;
+    list-style: none; 
     z-index: 9999;
     position: absolute;
     width: 80%;
