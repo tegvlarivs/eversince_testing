@@ -1,4 +1,10 @@
-@import url(http://fonts.googleapis.com/css?family=Geo&subset=latin);
+@font-face {
+    font-family: 'munroregular';
+    src: url('munro-webfont.woff2') format('woff2'),
+        url('munro-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
     margin: 0;
@@ -15,7 +21,7 @@ body {
 }
 
 .content {
-    font-family: 'Geo', serif;  
+    font-family: 'munroregular';
     font-size: 4rem;
     position: fixed;
     bottom: 0;
