@@ -1,109 +1,57 @@
-@import url('https://fonts.googleapis.com/css?family=Public+Sans:400,700');
-
-.grid-2 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+@font-face {
+    font-family: 'munroregular';
+    src: url('https://github.com/tegvlarivs/eversince_testing/tree/master/fonts/munro-webfont.woff') format('woff2'),
+        url('https://github.com/tegvlarivs/eversince_testing/tree/master/fonts/munro-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Public Sans', sans-serif;
     background-color: #151515;
-    color: #808080;
-
-}
-
-h2 {
-    color: #151515;
-    font-weight: 700;
-}
-
-a {
-    color: inherit;
-    text-decoration: none;
-}
-
-.section-1 {
-    background-color: #cacaca;
-    margin-left: 20vw;
-    padding-bottom: 4rem;
-    padding-left: 4rem;
-    padding-right: 2rem;
-    padding-top: 12rem;
+    font-family: 'munroregular';
+    font-size: 5em;
+    overflow: hidden;
     text-align: right;
 }
 
-.section-1 h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
-.section-2 {
-    background-color: #cacaca;
-    margin-right: 20vw;
-    padding-bottom: 4rem;
-    padding-left: 2rem;
-    padding-right: 4rem;
-    padding-top: 12rem;
-    text-align: left;
+ul {
+    list-style: none;
+    z-index: 9999;
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
-.section-2 h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+li {
+    margin-bottom: 20px;
 }
 
-.section-2 a {
-    display: block;
-    padding-bottom: 1rem;
+a {
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.5;
 }
 
-.section-2 a.row {
-    display: inline;
-    font-size: 1.8rem;
-    padding-right: 20px;
+a:hover {
+    opacity: 0.75;
+    color: aqua;
 }
 
-.section-2 a.unreleased {
-    color: #aaaaaa;
-}
-
-.section-2 a:hover {
-    color: #202020;
-    cursor: pointer;
-    transition: 0.4s;
-}
-
-.section-1 a:hover {
-    color: #202020;
-    cursor: pointer;
-    transition: 0.4s;
-}
-
-.section-2 a.unreleased:hover {
-    color: #aaaaaa;
-    cursor: pointer;
-}
-
-@media(max-width:960px) {
-    .grid-2 {
-        grid-template-columns: 1fr;
-    }
-
-    .section-1 {
-        margin-left: 0;
-        margin-top: 4rem;
-        text-align: left;
-        padding-bottom: 1rem;
-        padding-left: 2rem;
-        padding-top: 2rem;
-    }
-
-    .section-2 {
-        margin-right: 0;
-        padding-bottom: 2rem;
-        padding-left: 2rem;
-        padding-top: 1rem;
-    }
+a:visited {
+    text-decoration: none;
 }
