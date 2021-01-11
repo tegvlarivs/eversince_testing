@@ -1,19 +1,19 @@
 @font-face {
-    font-family: 'munroregular';
-    src: url('https://tegvlarivs.github.io/eversince_testing/fonts/munro-webfont.woff') format('woff'),
-        url('https://tegvlarivs.github.io/eversince_testing/fonts/munro-webfont.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'munroregular';
+  src: url('https://tegvlarivs.github.io/eversince_testing/fonts/munro-webfont.woff') format('woff'),
+    url('https://tegvlarivs.github.io/eversince_testing/fonts/munro-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #151515;
-    font-family: 'munroregular';
-    font-size: 5em;
-    overflow: hidden;
-    text-align: right;
+  margin: 0;
+  padding: 0;
+  background-color: #151515;
+  font-family: 'munroregular';
+  font-size: 5em;
+  overflow: hidden;
+  text-align: right;
 }
 
 video {
@@ -26,32 +26,32 @@ video {
 }
 
 ul {
-    list-style: none;
-    z-index: 9999;
-    position: absolute;
-    width: 80%;
-    height: 80%;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+  list-style: none;
+  z-index: 9999;
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 li {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 a {
-    text-decoration: none;
-    color: #fff;
-    opacity: 0.5;
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.5;
 }
 
 a:hover {
-    opacity: 0.75;
-    color: aqua;
+  opacity: 0.75;
+  color: aqua;
 }
 
 a:visited {
-    text-decoration: none;
+  text-decoration: none;
 }
