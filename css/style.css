@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'munroregular';
-    src: url('https://github.com/tegvlarivs/eversince_testing/blob/master/fonts/munro-webfont.woff') format('woff'),
-        url('https://github.com/tegvlarivs/eversince_testing/blob/master/fonts/munro-webfont.woff2') format('woff2');
+    src: url('https://tegvlarivs.github.io/eversince_testing/fonts/munro-webfont.woff') format('woff'),
+        url('https://tegvlarivs.github.io/eversince_testing/fonts/munro-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
