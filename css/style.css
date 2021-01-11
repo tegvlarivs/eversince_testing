@@ -11,10 +11,11 @@ html {
 }
 
 body {
-  height: 100%;
-  margin: 0;
+  background-image: url('bg.gif');
+  background-size: cover;
+  height: 100vh;
   padding: 0;
-  background-color: #151515;
+  margin: 0;
   font-family: 'munroregular';
   font-size: 5em;
   overflow: hidden;
@@ -49,13 +50,12 @@ li {
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: #ededed;
   opacity: 0.5;
 }
 
 a:hover {
   opacity: 0.75;
-  color: aqua;
 }
 
 a:visited {
