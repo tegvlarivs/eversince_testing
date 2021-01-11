@@ -6,7 +6,12 @@
   font-weight: normal;
 }
 
+html {
+  height: 100%
+}
+
 body {
+  height: 100%;
   margin: 0;
   padding: 0;
   background-color: #151515;
@@ -17,6 +22,7 @@ body {
 }
 
 video {
+  min-height: 100%;
   object-fit: cover;
   width: 100vw;
   height: 100vh;
