@@ -3,30 +3,29 @@
 <title>EVER SINCE RECORDS</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="assets/w3.css">
 <style>
-	@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 	body,
 	h1 {
-		font-family: 'Roboto Mono', monospace;
-		letter-spacing: 15px;
+		font-family: 'Bebas Neue', cursive;
+		letter-spacing: 1rem;
 		text-align: center;
 		text-transform: uppercase;
 	}
 
 	body,
 	html {
-		height: 100%
+		height: 100%;
+		overflow: hidden;
 	}
 
 	.bgimg {
 		background-color: #000;
-		background-image: url('assets/bg.jpg');
-		background-position: top;
-		background-repeat: no-repeat;
-		background-size: 3000px;
+		/* background-image: url('assets/bg.jpg'); */
+		/* background-position: center; */
+		/* background-repeat: no-repeat; */
 		min-height: 100%;
 	}
 
@@ -37,19 +36,31 @@
 	a:hover {
 		color: #fff;
 	}
+
+	#videobg {
+		display: block;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		height: 90%;
+	}
 </style>
 
 <body>
-
-	<div class="bgimg w3-display-container w3-animate-opacity w3-text-gray">
+	<div class="bgimg w3-display-container w3-animate-opacity">
+		<video id="videobg" autoplay muted loop>
+			<source src="assets/trim.mp4" type="video/mp4">
+		</video>
 		<div class="w3-display-middle">
-			<h1 class="w3-xxlarge w3-animate-top"><a target="_blank" href="https://mailchi.mp/6413902781a7/ever-since-records-mailing-list" title="Join the Ever Since Mailing List to stay up to date with our music, parties, and merch">EMAIL LIST</a>
+			<h1 class="w3-xxlarge w3-animate-top"><a target="_blank" href="https://mailchi.mp/6413902781a7/ever-since-records-mailing-list" title="Join the Ever Since Mailing List to stay up to date with our music, parties, and merch">NEWSLETTER</a>
 			</h1>
 			<h1 class="w3-xxlarge w3-animate-top"><a target="_blank" href="https://soundcloud.com/eversincerec" title="Explore DJ mixes & music from Ever since and Friends at Soundcloud">Soundcloud</a></h1>
 			<h1 class="w3-xxlarge w3-animate-top"><a target="_blank" href="https://www.instagram.com/ever_since_records/" title="Follow Ever Since on Instagram">Instagram</a></h1>
 			<h1 class="w3-xxlarge w3-animate-top"><a target="_blank" href="mailto:info@eversincerecords.com" title="Contact & Booking">Contact</a></h1>
 		</div>
 	</div>
+
 
 </body>
 
